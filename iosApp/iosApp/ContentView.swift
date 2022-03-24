@@ -31,7 +31,7 @@ struct CafeItemView : View {
         HStack {
             VStack(alignment: .leading) {
                 Text(cafeResponseItem.name).font(.headline)
-                Text(cafeResponseItem.id).font(.subheadline)
+                Text(cafeResponseItem.address).font(.subheadline)
             }
         }
     }
